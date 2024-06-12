@@ -1,8 +1,11 @@
 {
   "name": "@notification-workspace2/source",
+  "homepage": "https://AYESHAHANNURE25.github.io/DevOps-Assessment",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+     "deploy": "gh-pages -d build",
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
